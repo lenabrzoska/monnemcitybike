@@ -37,9 +37,9 @@ nav ul li .active {
 nav img{
 	height: 60px;
 	position: absolute;
-	top: 50%;
-	transform: translate(-680px, -460px);
-	margin left: 20px;
+	z-index: 3;
+	top: 30px;
+	left: 10px;
 }
 
 .start{
