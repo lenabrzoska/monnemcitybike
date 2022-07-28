@@ -1,0 +1,334 @@
+
+
+html {
+	background-color: #white;
+	max-width: 100%;
+	height: auto;
+}
+
+nav {
+	height: 90px;
+	width: 100%;
+	background-color: floralwhite;
+	box-shadow: 0px 1px 2px ;
+}
+
+nav ul{
+	float: right;
+}
+
+nav li{
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+nav li a{
+	font-family: sans-serif, helvetica, arial;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li .active {
+	color: green;
+}
+
+nav img{
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-680px, -460px);
+	margin left: 20px;
+}
+
+.start{
+	width: 600px;
+	height: 400px;
+	position: relative;
+	cursor: pointer;
+}
+
+.start:hover .post-s{
+	width: 600px;
+}
+
+
+.start img{
+	width: 1410px;
+}
+
+.start-s{
+	width: 1410px;
+	height: 940px;
+	background: rgba(186,231,159,0.2);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.7 ease;
+}
+
+.start-s h1 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 80px;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+.startseite {
+	font-family: sans-serif;
+	color: black;
+	font-size: 12pt;
+	text-align: center;
+	padding: 10px 30px;
+	margin-bottom: 1000px;
+}
+
+.startseite h1 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 16pt;
+	text-align: center;
+	margin-top: 40%;
+	color: green;
+}
+.startseite h2 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 12pt;
+	text-align: center;
+	color: green;
+}
+
+.startseite p {
+	font-family: sans-serif;
+	color: black;
+	font-size: 12pt;
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+.dienstleistungen {
+	float: left;
+	width: 20%;
+	margin-bottom: 1000px;
+}
+.dienstleistungen img {
+	float: left;
+	margin-left: 50px;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 50%;
+}
+
+.dienstleistungen p {
+	float: left;
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin-left: 60px;
+	margin-top: 30px;
+	text-align: left;
+
+}
+
+.werkstatt img {
+	width: 1410px;
+	align-items: center;
+}
+
+div p {
+	text-align: center;
+	font-size: 12pt;
+	font-family: sans-serif;
+	margin-left: 60px;
+}
+.unserservice h1 {
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: green;
+	margin-top: 60px;
+}
+
+.überuns h1 {
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: green;
+}
+
+.überuns p {
+	font-family: sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	margin-top: 5pt;
+
+}
+
+.kunden {
+	width: 600px;
+}
+
+.kunden h1 {
+	margin-top: 400px;
+	font-family: sans-serif;
+	font-size: 14pt;
+	margin-left: 40px;
+	margin-right: auto;
+	color: green;
+}
+
+.kunden {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+.kunden img {
+	width: 30%;
+	margin-left: 40px;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+.kunden p {
+	font-family: sans-serif;
+	font-size: 12pt;
+	text-decoration: underline;
+	margin-left: 40px;
+
+}
+
+
+.kontakt {
+	margin-left: 60px;
+}
+
+.kontakt img {
+	width: 60%;
+	height: auto;
+	margin-left: 300px;
+}
+
+.kontakt p {
+	font-family: sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+.kontakt h3 {
+	font-family: sans-serif;
+	font-size: 10pt;
+	width: 600px;
+	text-align: center;
+	margin-left: 400px;
+}	
+
+.kontakt h2 {
+	font-family: sans-serif;
+	font-size: 12pt;
+	width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	color: green;
+}
+
+.kontakt p {
+	font-family: sans-serif;
+	font-size: 12pt;
+	width: 600px;
+	text-aign: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.impressum { 
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+.impressum p {
+	font-family: sans-serif;
+	font-size: 12pt;
+	width: 600px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+
+.impressum h2 {
+	font-family: sans-serif;
+	font-size: 12pt;
+	width: 600px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 60px;
+	color: green;
+
+}	
+
+
+.left {
+	float: left;
+	width: 20%;
+}
+
+.left img {
+	float: left;
+	margin-left: 190px;
+	margin-right: auto;
+	width: 70%;
+}
+
+.left p {
+	float: left;
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin-left: 265px;
+	text-align: center;
+}
+
+.extra {
+	margin-bottom: 1000px;
+}
+
+.extra h1 {
+	font-family: sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	color: green;
+}
+
+.extra p {
+	font-family: sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.extra img {
+	margin-top: 60px;
+	margin-left: 400px;
+	width: 50%;
+}
+
+
+
+
